@@ -2,4 +2,7 @@
 
 
 def sum10(in_ls):
-    pass
+    for x in in_ls:
+        for y in in_ls:
+            if x + y == 10:
+                return x, y
